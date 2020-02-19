@@ -1,0 +1,21 @@
+{
+  "name": "objtoxml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "render.js",
+  "dependencies": {
+    "prettify-xml": "^1.2.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1"
+  },
+  "scripts": {
+    "start": "babel original.js --out-file server.js --presets=react && node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
