@@ -13,7 +13,7 @@
     "babel-preset-react": "^6.24.1"
   },
   "scripts": {
-    "start": "babel original.js --out-file server.js --presets=react && node server.js",
+    "build": "babel xml/src --out-dir xml --presets=react",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
